@@ -1,0 +1,133 @@
+{
+  "pages": [
+    
+    
+    "pages/denglu/main",
+    
+    "pages/apply/main",
+    "pages/shiyongcoupon/main",
+    "pages/coupon1/main",
+    "pages/miaoshashoplist/main",
+    "pages/shopdetails1/main",  
+    "pages/wallet/main",
+    "pages/phone/main",
+    "pages/distribution/main", 
+    "pages/share/main",
+    "pages/evaluateinfo/main",
+    "pages/evaluate/main",
+    "pages/index/main",
+    "pages/personnellist/main",
+    "pages/newinfo/main",
+    "pages/search/main",
+    "pages/coupon/main",
+    "pages/orderinfo/main",
+    "pages/address/main",
+    "pages/editaddress/main",
+    "pages/addaddress/main",    
+    "pages/news/main",    
+    "pages/integral/main",
+    "pages/collection/main",       
+    "pages/shopdetails/main",
+    "pages/placeorder/main",
+    "pages/myorder/main",    
+    "pages/information/main",
+    "pages/category/main",    
+    "pages/shoplist/main",    
+    "pages/shopdcart/main",
+    "pages/usercenter/main",      
+    "pages/platform/main"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "家装商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#DC143C",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/nav01.png",
+      "selectedIconPath": "static/tabs/nav00.png"
+    }, {
+      "text": "商品",
+      "pagePath": "pages/category/main",
+      "iconPath": "static/tabs/nav11.png",
+      "selectedIconPath": "static/tabs/nav10.png"
+    },
+    {
+      "text": "消息",
+      "pagePath": "pages/news/main",
+      "iconPath": "static/tabs/nav21.png",
+      "selectedIconPath": "static/tabs/nav20.png"
+    },
+    {
+      "text": "购物车",
+      "pagePath": "pages/shopdcart/main",
+      "iconPath": "static/tabs/nav31.png",
+      "selectedIconPath": "static/tabs/nav30.png"
+    },
+    {
+      "text": "我的",
+      "pagePath": "pages/usercenter/main",
+      "iconPath": "static/tabs/nav41.png",
+      "selectedIconPath": "static/tabs/nav40.png"
+    }],
+
+    "items": [{
+        "text": "首页",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/nav01.png",
+        "selectedIconPath": "static/tabs/nav00.png"
+      },
+      {
+        "text": "商品",
+        "pagePath": "pages/category/main",
+        "iconPath": "static/tabs/nav11.png",
+        "selectedIconPath": "static/tabs/nav10.png"
+      }
+      ],
+    "position": "bottom"
+  },
+  "usingComponents": { 
+    "van-button": "/static/vant/dist/button/index",
+    "van-icon": "/static/vant/dist/icon/index",
+    "van-badge": "/static/vant/dist/badge/index",
+    "van-badge-group": "/static/vant/dist/badge-group/index",
+    "van-row": "/static/vant/dist/row/index",
+    "van-col": "/static/vant/dist/col/index",
+    "van-popup": "/static/vant/dist/popup/index",
+    "van-stepper": "/static/vant/dist/stepper/index",
+    "van-tab": "/static/vant/dist/tab/index",
+    "van-tabs": "/static/vant/dist/tabs/index",
+    "van-goods-action": "/static/vant/dist/goods-action/index",
+    "van-goods-action-icon": "/static/vant/dist/goods-action-icon/index",
+    "van-goods-action-button": "/static/vant/dist/goods-action-button/index",
+    "van-submit-bar": "/static/vant/dist/submit-bar/index",
+    "van-checkbox": "/static/vant/dist/checkbox/index",
+    "van-checkbox-group": "/static/vant/dist/checkbox-group/index",
+    "van-cell": "/static/vant/dist/cell/index",
+    "van-cell-group": "/static/vant/dist/cell-group/index",
+    "van-field": "/static/vant/dist/field/index",
+    "van-radio": "/static/vant/dist/radio/index",
+    "van-radio-group": "/static/vant/dist/radio-group/index",
+    "van-toast": "/static/vant/dist/toast/index",
+    "van-loading": "/static/vant/dist/loading/index",
+    "van-area": "/static/vant/dist/area/index",
+    "van-search": "/static/vant/dist/search/index",
+    "van-dialog": "/static/vant/dist/dialog/index",
+    "van-rate": "/static/vant/dist/rate/index"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+  
+}
